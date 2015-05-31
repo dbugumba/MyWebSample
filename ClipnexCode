@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script>
+  <meta charset="utf-8">
+  <title>Your Home-Based Code Academy</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="description" content="An 8 week immersive coding bootcamp in the heart of Mwanza">
+  <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'> 
+
+  <!-- Favicon and touch icons  -->
+  <link href="assets/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon-precomposed" sizes="144x144">
+  <link href="assets/apple-touch-icon-114-precomposed.png" rel="apple-touch-icon-precomposed" sizes="114x114">
+  <link href="assets/apple-touch-icon-72-precomposed.png" rel="apple-touch-icon-precomposed" sizes="72x72">
+  <link href="assets/apple-touch-icon-57-precomposed.png" rel="apple-touch-icon-precomposed">
+  <link href="//d37v6ef1s6z9be.cloudfront.net/assets/favicon-e97a60ce5e644c40afad60bf6b0f3dd6.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+
+  <!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MVXQQ3"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MVXQQ3');</script>
+<!-- End Google Tag Manager -->
+
+  <!-- Javascript  -->
+  <script src="//d37v6ef1s6z9be.cloudfront.net/assets/application-ffbb31b1e31648a0b0d927a4d81c4147.js"></script>
+  <link href="//d37v6ef1s6z9be.cloudfront.net/assets/home-f95de04384edd7aa8b59342a52327245.css" media="screen" rel="stylesheet" />
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" media="screen" rel="stylesheet" />
+  <script type="text/javascript">
+// (function() {
+//   var pa = document.createElement('script'), ae = document.getElementsByTagName('script')[0]
+//   , protocol = (('https:' == document.location.protocol) ? 'https://' : 'http://');pa.async = true;  
+//   pa.src = protocol + 'd2xgf76oeu9pbh.cloudfront.net/9ca535cd419cd740dc68d86102dfc541.js'; pa.type = 'text/javascript'; ae.parentNode.insertBefore(pa, ae);
+// })();
+</script>
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5435057f29e5b0e4" async></script>
+  <script>(function() {
+  var _fbq = window._fbq || (window._fbq = []);
+  if (!_fbq.loaded) {
+    var fbds = document.createElement('script');
+    fbds.async = true;
+    fbds.src = '//connect.facebook.net/en_US/fbds.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(fbds, s);
+    _fbq.loaded = true;
+  }
+  _fbq.push(['addPixelId', '706422796119880']);
+})();
+window._fbq = window._fbq || [];
+window._fbq.push(['track', 'PixelInitialized', {}]);
+</script>
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=706422796119880&amp;ev=PixelInitialized" /></noscript>
+
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+        <script src="assets/javascripts/html5shiv.js"></script>
+        <![endif]-->
+</head>
+
+<body class="page-green hidden-body">
+       <!-- Navigation -->
+<style>
+#header 
+{
+  margin:0 auto;
+  min-height:250px;
+  overflow:hidden;
+  width:960px;
+}
+
+.header-image #title-area,.header-image #title,.header-image #title a 
+{
+  display:block;
+  float:left;
+  height:250px;
+  overflow:hidden;
+  padding:0;
+  text-indent:-9999px;
+  width:400px;
+}
+
+h1.intro 
+{
+  font-size:20px;
+  position: initial;
+  text-align: left;
+  font-family: "Century Gothic", Verdana, sans-serif;
+  font-weight: 900;
+  color: #000000;
+}
+</style>
+	   
+<header>
+  <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <h1 class="intro"><a class="brand" href="http://clipnex.com">iAcademy</a></h1>
+        <div class="nav-collapse collapse">
+          <ul class="nav pull-right">
+            <li><a class="scroll-link" href="#home">Home</a></li>
+            <li><a class="scroll-link" href="#about">About</a></li>
+            <li><a class="scroll-link" href="#whycode">Why Code?</a></li>
+            <li><a href="/faq">FAQ</a></li>
+            <li><a class="scroll-link button-apply" href="#apply">Apply Now</a></li> <!-- red colour -->
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div><!-- .navbar -->
+</header>
+
+<!-- Home -->
+<section id="first" class="home text-center bg1 fullheight" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="0" data-stellar-vertical-offset="0" data-stellar-vertical-offset="0" data-stellar-vertical-offset="0">
+  <a class="anchor" id="home"></a>
+  <div class="headline-wrapper fullheight">
+    <div class="headline slides">
+      <div class="flexslider">
+        <ul class="slides">
+          <li>
+            <h2>Your <span class="emphasis">first step</span> in embarking on a journey as a <span class="emphasis">techie</span> </h2>
+          </li>
+          <h2>A <span class="emphasis">unique</span> coding bootcamp for us, by us</h2>
+        </li>
+        <li>
+          <li>
+            <h2>Welcome to the <span class="emphasis">experience</span> of a lifetime</h2>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div> 
+     <a class="scroll-link down-arrow" href="#about">
+      <img alt="Down arrow thin" class="down-arrow-icon" src="//d37v6ef1s6z9be.cloudfront.net/assets/down-arrow-thin-29fbadafb8bb5fc534df8e60dc5070a9.png" />
+    </a>
+</section>
+
+<!-- About -->
+<section id="second" class="about text-center">
+  <a class="anchor" id="about"></a>
+
+<!--   <div class="wrapper bg-colored ">
+    <div class="container">
+      <div class="row">
+        <div class="span12">
+          <h2>What is iXperience?</h2>
+          <div class="underline"><hr /></div>
+          <h3>“Coding is the future of our generation.<br />
+            We will equip you with the necessary skills to make a difference.”</h3>
+            <p>- Aaron Fuchs, iXperience CEO</p>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <div class="wrapper"> 
+      <div class="container story">     
+       <div class="row">
+        <div class="span10 offset1">
+          <h2>What is iAcademy?</h2>
+          <div class="black-underline"><hr /></div>
+         <h3 class="program">iAcademy is an educational program and your gateway to understanding programming. The first 4 weeks are spent learning how to code and build web applications using Ruby on Rails. The last 4 weeks are spent using your newly developed skills and working on real world tech projects with our Web portal and the local tech companies.</h3>
+          <h3 class="program">After the program you will be equipped with all the tools necessary to build web applications on your own and bring your ideas to life with code. You do not need prior coding experience to attend, just a do-it-yourself attitude and the desire to have the summer experience of a lifetime.</h3>
+        </div>
+          </div>
+        </div>
+       </div>
+  </div>
+</div>
+
+<!-- Why Code -->
+<section id="sixth" class="services text-center">
+  <a class="anchor" id="whycode"></a>
+
+  <div class="wrapper bg-colored "> 
+   <div class="container">
+    <div class="row">
+     <div class="span10 offset1">
+      <h2>WHY CODE?</h2>
+      <div class="underline"><hr /></div>
+      <p>We want to empower thinkers. The world is changing, and coding is at the core.
+        <br />Do you not believe us? Perhaps these guys might be able to convince you:</p>
+        <div class="megawrapper">
+          <div class='videowrapper'>
+<!--             <iframe id="youtube-nKIu9yen5nc" src="http://www.youtube.com/embed/nKIu9yen5nc?enablejsapi=1&amp;rel=0&amp;autohide=1&amp;showinfo=0&amp;enablejsapi=1" width="970" height="546" class="youtube" frameborder="0" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitAllowFullScreen" mozallowfullscreen="mozallowfullscreen"></iframe> -->
+            <iframe id="youtube-nKIu9yen5nc" class="youtube" width="970" height="546" src="http://www.youtube.com/embed/nKIu9yen5nc" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="wrapper"> 
+ <div class="container">      
+  <div class="row">
+   <div class="span12">
+    <h2>THE THREE PILLARS OF OUR ACADEMY</h2>
+    <div class="black-underline"><hr /></div>
+    <h3>The foundation on which we built our program</h3>
+  </div>
+</div>
+<div class="row waypoint-3">
+ <div class="span4">
+  <div class="service-wrapper hidden-element-3">
+   <h4>Learn</h4>
+   <div class="full-rounded">
+    <i class="fa fa-laptop icon5x"></i>
+  </div>
+  <div class="pillar-box">
+    <p>
+      iAcademy is not a typical classroom. Think of it more as an intensive workshop. You will be learning by doing and building, not just by sitting back and listening.
+    </p>
+  </div>
+  <dl>
+    <dt>What to expect...</dt>
+    <dd>Pair Programming</dd>
+    <dd>Lots of collaboration</dd>
+    <dd>Handwritten code</dd>
+    <dd>The ability to build your own App</dd>
+  </dl>
+</div><!-- service-wrapper -->
+</div>
+<div class="span4">
+  <div class="service-wrapper hidden-element-3">
+   <h4>Explore</h4>
+   <div class="full-rounded">
+    <i class="fa fa-male icon5x"></i>
+  </div>
+  <div class="pillar-box">
+    <p>
+      We believe in work hard, play hard. Surfboards and mountain bikes adorn the walls of ixHQ. Jump on one and let the natural beauty of the most spectacular city on the planet inspire you.
+    </p>
+  </div>
+  <dl>
+    <dt>We encourage...</dt>
+    <dd>An active lifestyle</dd>
+    <dd>Cultural exploration</dd>
+    <dd>Interaction with locals</dd>
+    <dd>Healthy nutrition</dd>
+  </dl>
+</div><!-- service-wrapper -->
+</div>
+<div class="span4">
+  <div class="service-wrapper hidden-element-3">
+   <h4>Impact</h4>
+   <div class="full-rounded">
+    <i class="fa fa-group icon5x"></i>
+  </div>
+  <div class="pillar-box">
+    <p>
+      We encourage all our students to think about the benefits technology can have on our society. We will host evening workshops with local tech companies to show you how they are using technology to shape Tanzania's future.
+    </p>
+  </div>
+  <dl>
+   <dt>Cool companies we work with...</dt>
+   <dd>Platform45</dd>
+   <dd>22Seven</dd>
+   <dd>Siyelo</dd>
+   <dd>Greenpop</dd>
+ </dl>
+</div><!-- service-wrapper -->
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<div class="wrapper bg-white">  
+  <div class="container story">     
+   <div class="row">
+    <div class="span12">
+     <h2>THE CURRICULUM</h2>
+     <div class="black-underline"><hr /></div>
+     <h3>The best way to learn is by doing. We will have you coding, and coding and coding!</h3>
+   </div>
+ </div>
+ <div class="row waypoint-4">
+  <div class="span3 skills hidden-element-4 mar-t30">
+   <h4>HTML and CSS</h4>
+   <img alt="Skill html gray" class="percentage" src="//d37v6ef1s6z9be.cloudfront.net/assets/skill-html-gray-cec8ef57b3088b8019bac697e2bcfb3d.png" />
+   <p class="p-curr">Core fundamental skills to the world of web development which you will master by the end of this program.</p>
+ </div>
+
+ <div class="span3 skills hidden-element-4 mar-t30">
+   <h4>Javascript and JQuery</h4>
+   <img alt="Skill jscript gray" class="percentage" src="//d37v6ef1s6z9be.cloudfront.net/assets/skill-jscript-gray-4c36fde183fb2f8cfb6be69474e52019.png" />
+   <p>Bring the web to life with jQuery-powered interactions and an understanding of the core of JavaScript.</p>
+ </div>
+
+ <div class="span3 skills hidden-element-4 mar-t30">
+   <h4>Ruby on Rails</h4>
+   <img alt="Skill rails gray" class="percentage" src="//d37v6ef1s6z9be.cloudfront.net/assets/skill-rails-gray-9f961faa61fbe4a2edd5f9c3c4114b4a.png" />
+   <p>Learn one of the best ways to build modern, database-backed web applications </p>
+ </div>
+
+ <div class="span3 skills hidden-element-4 mar-t30">
+   <h4>Databases</h4>
+   <img alt="Skill database gray" class="percentage" src="//d37v6ef1s6z9be.cloudfront.net/assets/skill-database-gray-d42345815bd7dce847178d89d0f873a7.png" />
+   <p>Relational or Document Store? MySQL or Postgres? Mongo or Redis? Cloud or dev/null? Learning the fundamentals to data storage is a must.</p>
+ </div>
+</div>
+
+<div class="row waypoint-4">
+  <div class="span3 skills hidden-element-4 mar-t30">
+   <h4>Agile Development</h4>
+   <img alt="Skill agile gray" class="percentage" src="//d37v6ef1s6z9be.cloudfront.net/assets/skill-agile-gray-4b2a14429112c4c7cb6c7dd42c1710c2.png" />
+   <p>Agile is more than just a development practice; it's a philosophy for life. Develop and iterate on your projects by keeping a close eye on costs and value.</p>
+ </div>
+
+ <div class="span3 skills hidden-element-4 mar-t30">
+   <h4>Product Management</h4>
+   <img alt="Skill product management gray" class="percentage" src="//d37v6ef1s6z9be.cloudfront.net/assets/skill-product-management-gray-94b129f4d9393cbae2e3f91c5a858002.png" />
+   <p>Product management lies at the intersection between business, design, and technology; giving you the foresight to gauge whether a product is viable from a business perspective.</p>
+ </div>
+
+ <div class="span3 skills hidden-element-4 mar-t30">
+   <h4>Git - Source Control</h4>
+   <img alt="Skill github gray" class="percentage" src="//d37v6ef1s6z9be.cloudfront.net/assets/skill-github-gray-e94eb0225e100c83c29827aa23bf1ce7.png" />
+   <p>Manage your code versions, and collaborate on projects with other programmers. </p>
+ </div>
+
+ <div class="span3 skills hidden-element-4 mar-t30">
+   <h4>Work Experience</h4>
+   <img alt="Skill experience gray" class="percentage" src="//d37v6ef1s6z9be.cloudfront.net/assets/skill-experience-gray-11fe3e8c16e500d91bb095514f56323a.png" />
+   <p>Nothing prepares you for the real world quite like the real world! Spending time coding is where you will gain the real skills. Your one-month internship will give you exactly that.</p>
+ </div>
+</div>
+  <div class="link-to-curriculumn">
+    <p>To view an in-depth breakdown of our curriculum,<a href="curriculum" id="curriculum" target="_blank"> click here</a><p>
+  </div>
+</div>
+</div>    
+
+<!-- Background Image -->
+<section id="ninth" class="text-center bg6">
+  <div class="headline-wrapper fullheight pattern">
+   <div class="headline">
+    <div class="headline-holder">
+     <h2 class="headline"><span class="emphasis">Creativity</span> is the greatest rebellion in existence</h2>
+     <p class="headline-author">Osho</p>
+   </div> 
+ </div>
+</div>
+</section>      
+
+<!-- Apply -->
+<section id="tenth" class="contact text-center">
+  <a class="anchor" id="apply"></a>
+  <div class="wrapper bg-colored">  
+    <div class="container">
+      <div class="row">
+        <h2>APPLY NOW!</h2>
+        <div class="underline"><hr /></div>
+   
+<div class="span9 offset1 prospect-form">
+<h4>Please enter your emaill address below to begin your application</h4>
+<form accept-charset="UTF-8" action="/prospects" class="new_prospect" id="new_prospect" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="SNORcLeNYbcBCAz7iroCXKcfzHhwwO9oWmZA3gAwKBg=" /></div>
+<div>
+  <input class="prospect-email" id="prospect_email" name="prospect[email]" placeholder="email address" type="text" />
+  <p class="error"> </p>
+</div>
+  <input class="btn button-apply-main" name="commit" type="submit" value="START APPLICATION" />
+</form></div>
+
+</div>
+</div>
+<div class="wrapper bg-white">
+  <div class="container">     
+   <div class="row">
+  </div>
+</div>  
+</div> 
+
+<section id="ninth" class="text-center bg10">
+  <div class="headline-wrapper fullheight pattern">
+   <div class="headline">
+    <div class="headline-holder">
+     <h2 class="headline"><span class="emphasis">Education</span> is the most powerful tool we have to change the world</h2>
+     <p class="headline-author">Nelson Mandela</p>
+   </div> 
+ </div>
+</div>
+</section>  
+       <footer>
+  <div class="wrapper bg-colored">
+   <div class="container text-center">
+    <div class="row">
+     <div class="span12">
+      
+     <p>Copyright &copy; 2015 Dennis Bugumba</p>
+   </div>
+ </div>
+</div>
+</div>    
+</footer>
+
+<!-- LiveChat Inc -->
+  <script type="text/javascript">if (!NREUMQ.f) { NREUMQ.f=function() {
+NREUMQ.push(["load",new Date().getTime()]);
+var e=document.createElement("script");
+e.type="text/javascript";
+e.src=(("http:"===document.location.protocol)?"http:":"https:") + "//" +
+  "js-agent.newrelic.com/nr-100.js";
+document.body.appendChild(e);
+if(NREUMQ.a)NREUMQ.a();
+};
+NREUMQ.a=window.onload;window.onload=NREUMQ.f;
+};
+NREUMQ.push(["nrfj","beacon-6.newrelic.com","bcd8512b0d","4048145","H0ENClxZEQ0Y",0,0,new Date().getTime(),"","","","",""]);</script></body>
+</html>
